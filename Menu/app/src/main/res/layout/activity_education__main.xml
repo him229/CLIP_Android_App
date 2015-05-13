@@ -1,0 +1,74 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="group6.cse3310.clip.education.Education_Main">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:onClick="goFinancialAid"
+        android:text="@string/education_financial_aid"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        style="@style/niceButton" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:onClick="goGraduationPlans"
+        android:text="@string/education_graduation_plans"
+        android:layout_below="@+id/button5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        style="@style/niceButton"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:onClick="goSchoolApplied"
+        android:text="@string/education_school_applied"
+        android:layout_below="@+id/button6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        style="@style/niceButton" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:onClick="goSchoolConsidered"
+        android:text="@string/education_school_considered"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        style="@style/niceButton" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:onClick="goCurrentEducation"
+        android:text="@string/education_current"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        style="@style/niceButton" />
+
+
+
+</RelativeLayout>
+
+</ScrollView>

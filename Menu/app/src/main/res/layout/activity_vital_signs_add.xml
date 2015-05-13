@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:paddingBottom="@dimen/activity_vertical_margin"
+tools:context="health.VitalSignsAdd"
+android:orientation="vertical">
+
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Submit"
+    android:id="@+id/addRecipesSubmitButton"
+    android:layout_gravity="center_horizontal"
+    android:onClick="submit"
+    style="@style/niceButton" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/addVitalSignsDateEditText"
+    android:inputType="date"
+    android:hint="Date"
+    android:layout_gravity="center_horizontal" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/addVitalSignsRateEditText"
+    android:inputType="number"
+    android:hint="Hart Rate"
+    android:layout_gravity="center_horizontal" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/addVitalSignsBreathEditText"
+    android:inputType="number"
+    android:hint="Breathing"
+    android:layout_gravity="center_horizontal" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/addVitalSignsBPEditText"
+    android:inputType="date"
+    android:hint="Blood Pressure"
+    android:layout_gravity="center_horizontal" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/addVitalSignsTemperatureEditText"
+    android:inputType="numberDecimal"
+    android:hint="Temperature"
+    android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+

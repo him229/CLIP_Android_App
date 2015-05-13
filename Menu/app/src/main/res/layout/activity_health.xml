@@ -1,0 +1,81 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:text="Allergen"
+        android:id="@+id/allergenButton"
+        android:onClick="goToAllergenView"
+        style="@style/niceButton" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:text="CheckUp"
+        android:id="@+id/checkUpButton"
+        android:onClick="goToCheckUpView"
+        style="@style/niceButton" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:text="Diet"
+        android:id="@+id/dietButton"
+        android:onClick="goToDietView"
+        style="@style/niceButton" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:text="Exercise Plan"
+        android:id="@+id/exerPlanButton"
+        android:onClick="goToExerPlanView"
+        style="@style/niceButton" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:text="Health Notes"
+        android:id="@+id/healthNoteButton"
+        android:onClick="goToHeathNoteView"
+        style="@style/niceButton" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:text="Medications"
+        android:id="@+id/medicationsButton"
+        android:onClick="goToMedicationsView"
+        style="@style/niceButton" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:text="Recipes"
+        android:id="@+id/recipeButton"
+        android:onClick="goToRecipesView"
+        style="@style/niceButton" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:text="Vital Signs"
+        android:id="@+id/vitalSignsButton"
+        android:onClick="goToVitalSignsView"
+        style="@style/niceButton"/>
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1" >
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            style="@style/niceButton"
+            android:text="Career"
+            android:id="@+id/career"
+            android:textSize="25dp"
+            android:textStyle="normal"
+            android:textColorHighlight="#FFFCFF15" />
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            style="@style/niceButton2"
+            android:id="@+id/finance"
+            android:textColor="#ff32b7ff"
+            android:text="FINANCE"
+            android:textSize="25dp"
+            android:textColorHighlight="#FFFCFF15" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1" >
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            style="@style/niceButton2"
+            android:text="HEALTH"
+            android:id="@+id/health"
+            android:textColor="#ff32b7ff"
+            android:textSize="25dp"
+            android:textColorHighlight="#FFFCFF15" />
+
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            style="@style/niceButton"
+            android:text="EDUCATION"
+            android:id="@+id/education"
+            android:textSize="25dp"
+            android:textColorHighlight="#FFFCFF15" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1" >
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            style="@style/niceButton"
+            android:text="ABOUT"
+            android:id="@+id/about"
+            android:textSize="25dp"
+            android:textColorHighlight="#FFFCFF15" />
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            style="@style/niceButton2"
+            android:text="LEAVE"
+            android:id="@+id/leave"
+            android:textColor="#ff32b7ff"
+            android:textSize="25dp"
+            android:textColorHighlight="#FFFCFF15" />
+    </LinearLayout>
+</LinearLayout>

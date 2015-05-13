@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:paddingBottom="@dimen/activity_vertical_margin"
+tools:context="health.ExercisePlanAdd"
+android:orientation="vertical">
+
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Submit"
+    android:id="@+id/addExercisePlanSubmitButton"
+    android:layout_gravity="center_horizontal"
+    android:onClick="submit"
+    style="@style/niceButton" />
+
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/addExercisePlanNameEditText"
+    android:hint="Name of Exercise Plan"
+    android:layout_gravity="center_horizontal" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/addExercisePlanDescriptionEditText"
+    android:hint="Description of Exercise Plan"
+    android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+

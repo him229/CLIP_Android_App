@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="project3310.financemenu" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="CLIP"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".FinanceMainMenu"
+            android:label="CLIP" >
+        </activity>
+        <activity
+            android:name=".assets"
+            android:label="Assets" >
+        </activity>
+        <activity
+            android:name=".finance_creditcards"
+            android:label="Credit Cards" >
+        </activity>
+        <activity
+            android:name=".tempCash"
+            android:label="Cash" >
+        </activity>
+        <activity
+            android:name=".liabilities"
+            android:label="Liabilities" >
+        </activity>
+        <activity
+            android:name=".Goals"
+            android:label="@string/title_activity_goals" >
+        </activity>
+        <activity
+            android:name=".Stocks"
+            android:label="@string/title_activity_stocks" >
+        </activity>
+        <activity
+            android:name=".ChooseSymbolActivity"
+            android:label="Live Stock Update" >
+        </activity>
+        <activity
+            android:name=".ViewTask"
+            android:label="Goals" >
+        </activity>
+        <activity
+            android:name="health.AllergenAdd"
+            android:label="Add Allergens" >
+        </activity>
+        <activity
+            android:name="health.AllergenView"
+            android:label="Allergens" >
+        </activity>
+        <activity
+            android:name="health.CheckUpView"
+            android:label="@string/title_activity_check_up" >
+        </activity>
+        <activity
+            android:name="health.CheckUpAdd"
+            android:label="Add CheckUp" >
+        </activity>
+        <activity
+            android:name="health.DietView"
+            android:label="@string/title_activity_diet" >
+        </activity>
+        <activity
+            android:name="health.DietAdd"
+            android:label="Add Diet" >
+        </activity>
+        <activity
+            android:name="health.ExercisePlanView"
+            android:label="Exercise Plan" >
+        </activity>
+        <activity
+            android:name="health.ExercisePlanAdd"
+            android:label="Add Exercise Plan" >
+        </activity>
+        <activity
+            android:name="health.Health"
+            android:label="@string/title_activity_health" >
+        </activity>
+        <activity
+            android:name="health.HealthNotesView"
+            android:label="Health Notes" >
+        </activity>
+        <activity
+            android:name="health.HealthNotesAdd"
+            android:label="Add Health Notes" >
+        </activity>
+        <activity
+            android:name="health.MedicationsView"
+            android:label="@string/title_activity_medications" >
+        </activity>
+        <activity
+            android:name="health.MedicationsAdd"
+            android:label="Add Medications" >
+        </activity>
+        <activity
+            android:name="health.RecipesView"
+            android:label="@string/title_activity_recipes" >
+        </activity>
+        <activity
+            android:name="health.RecipesAdd"
+            android:label="Add Recipes" >
+        </activity>
+        <activity
+            android:name="health.VitalSignsView"
+            android:label="Vital Signs" >
+        </activity>
+        <activity
+            android:name="health.VitalSignsAdd"
+            android:label="Add Vital Signs" >
+        </activity>
+        <activity
+            android:name=".CLIPMainMenu"
+            android:label="Main Menu" >
+        </activity>
+        <activity
+            android:name="career.career"
+            android:label="CAREER" >
+        </activity>
+        <activity
+            android:name="career.CompanyInfoList"
+            android:label="@string/title_activity_company_info_list" >
+        </activity>
+        <activity
+            android:name="career.CompanyInformation"
+            android:label="@string/title_activity_company_information" >
+        </activity>
+        <activity
+            android:name="career.DisplayMessageActivity"
+            android:label="DisplayMessageActivity" >
+        </activity>
+        <activity
+            android:name="career.ElectronicIDDetails"
+            android:label="@string/title_activity_electronic_iddetails" >
+        </activity>
+        <activity
+            android:name="career.ElectronicIDList"
+            android:label="@string/title_activity_electronic_idlist" >
+        </activity>
+        <activity
+            android:name="career.JobSearch"
+            android:label="@string/title_activity_job_search" >
+        </activity>
+        <activity
+            android:name="career.JobSearchOutput"
+            android:label="@string/title_activity_job_search_output" >
+        </activity>
+        <activity
+            android:name="career.JobSearchList"
+            android:label="@string/title_activity_job_search_list" >
+        </activity>
+        <activity
+            android:name="career.LongTermGoal"
+            android:label="@string/title_activity_long_term_goal" >
+        </activity>
+        <activity
+            android:name="career.MainNetworkList"
+            android:label="@string/title_activity_main_network_list" >
+        </activity>
+        <activity
+            android:name="career.NetworkList"
+            android:label="@string/title_activity_network_list" >
+        </activity>
+        <activity
+            android:name="career.NetworkListOutput"
+            android:label="@string/title_activity_network_list_output" >
+        </activity>
+        <activity
+            android:name="career.ShortTermGoalDetails"
+            android:label="@string/title_activity_short_term_goal_details" >
+        </activity>
+        <activity
+            android:name="health.AllergenEdit"
+            android:label="@string/title_activity_allergen_edit" >
+        </activity>
+        <activity
+            android:name="health.CheckUpEdit"
+            android:label="@string/title_activity_check_up_edit" >
+        </activity>
+        <activity
+            android:name="health.DietEdit"
+            android:label="@string/title_activity_diet_edit" >
+        </activity>
+        <activity
+            android:name="health.ExercisePlanEdit"
+            android:label="@string/title_activity_exercise_plan_edit" >
+        </activity>
+        <activity
+            android:name="health.HealthNotesEdit"
+            android:label="@string/title_activity_health_notes_edit" >
+        </activity>
+        <activity
+            android:name="health.MedicationsEdit"
+            android:label="@string/title_activity_medications_edit" >
+        </activity>
+        <activity
+            android:name="health.RecipesEdit"
+            android:label="@string/title_activity_recipes_edit" >
+        </activity>
+        <activity
+            android:name="health.VitalSignsEdit"
+            android:label="@string/title_activity_vital_signs_edit" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="education.Education_Main"
+            android:label="Education"></activity>
+        <activity
+            android:name="education.Current_Education"
+            android:label="@string/title_activity_current__education"></activity>
+        <activity
+            android:name="education.Graduate_Plans"
+            android:label="@string/title_activity_graduate__plans"></activity>
+        <activity
+            android:name="education.School_Applied"
+            android:label="@string/title_activity_school__applied"></activity>
+        <activity
+            android:name="education.School_Considered"
+            android:label="@string/title_activity_school__considered"></activity>
+        <activity
+            android:name="education.Financial_Aid"
+            android:label="@string/title_activity_financial__aid"></activity>
+        <activity
+            android:name="education.Add_Current_Education"
+            android:label="@string/title_activity_add__current__education"></activity>
+        <activity
+            android:name="education.Add_Financial_Aid"
+            android:label="@string/title_activity_add__financial__aid"></activity>
+        <activity
+            android:name="education.Add_Graduate_Plans"
+            android:label="@string/title_activity_add__graduate__plans"></activity>
+        <activity
+            android:name="education.Add_School_Applied"
+            android:label="@string/title_activity_add__school__applied"></activity>
+        <activity
+            android:name="education.Add_School_Considered"
+            android:label="@string/title_activity_add__school__considered"></activity>
+        <activity
+            android:name="career.AboutMe"
+            android:label="@string/title_activity_about_me" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="group6.cse3310.clip.education.Add_School_Considered">
+
+    <EditText
+        android:id="@+id/school_considered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="149dp"
+        android:hint="@string/school_considered" />
+
+    <EditText
+        android:id="@+id/degree_type_considered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/school_considered"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/degree_type_considered" />
+
+    <EditText
+        android:id="@+id/area_study_considered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/degree_type_considered"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/area_study_considered" />
+
+    <EditText
+        android:id="@+id/yearly_cost_considered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/degree_type_considered"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignStart="@+id/degree_type_considered"
+        android:layout_below="@+id/area_study_considered"
+        android:hint="@string/yearly_cost_considered" />
+
+    <Button
+        android:id="@+id/submit_school_considered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/degree_type_considered"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/degree_type_considered"
+        android:text="@string/button_submit"
+        android:onClick="submit"/>
+</RelativeLayout>
